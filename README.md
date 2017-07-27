@@ -23,6 +23,7 @@ The probabilities that the given feature is that of following protocols:
 - Tor
 - HTTP
 - HTTPS
+- Other
 
 The results go through softmax regression.
 
