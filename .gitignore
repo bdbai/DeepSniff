@@ -102,3 +102,6 @@ ENV/
 
 # macOS auto-generated file
 .DS_Store
+
+# VS Code files
+.vscode/
