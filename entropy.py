@@ -14,7 +14,7 @@ def entropy(data):
         byteCount[byte] += 1
     for count in byteCount:
         if count > 0:
-            p = float(count) / length
+            p = count / length
             ret -= p * log(p, 256)
     return ret
 
